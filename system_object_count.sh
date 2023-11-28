@@ -1,5 +1,15 @@
 #!/bin/bash
 
+<< ////
+
+The sample code described herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. ForgeRock does not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in production configurations.
+
+ForgeRock does not warrant, guarantee or make any representations regarding the use, results of use, accuracy, timeliness or completeness of any data or information relating to the sample script. ForgeRock disclaims all warranties, expressed or implied, and in particular, disclaims all warranties of merchantability, and warranties related to the script/code, or any service or software related thereto.
+
+ForgeRock shall not be liable for any direct, indirect or consequential damages or costs of any type arising out of any action taken by you or others related to the sample script/code.
+
+////
+
 FQDN='XXXXXX'                #Tenant FQDN. For example openam-mytenant.forgerock.io
 CONNECTOR='XXXXXX'           #IDM Connector Name. For example LDAP
 ACCOUNT_IDENTIFIER='account' #IDM Connector account identifier. DS connectors by default use 'account'. DB connectors typically use '__ACCOUNT__'
