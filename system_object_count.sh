@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FQDN='XXXXXX'                #Tenant FQDN. For example openam-mytenant.forgerock.io
-CONNECTOR='XXXXXX'           #IDM Connector Name. For example LDAPConnector
+CONNECTOR='XXXXXX'           #IDM Connector Name. For example LDAP
 ACCOUNT_IDENTIFIER='account' #IDM Connector account identifier. DS connectors by default use 'account'. DB connectors typically use '__ACCOUNT__'
 DONE=false
 PAGED_RESULTS_COOKIE=''      #Set this value to 0 without quotes for DBs
